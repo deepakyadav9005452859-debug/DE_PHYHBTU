@@ -26,7 +26,19 @@ st.write("Convert magnetic quantities between SI and CGS units.")
 # factor = 10^4
 # ---------------------------------------------------------
 
-quantities = {
+quantities = { "Magnetic induction (B)": {
+        "symbol": "B",
+        "si": "tesla (T)",
+        "cgs": "gauss (G)",
+        "factor": 1e4
+    },
+
+    "Magnetic field (H)": {
+        "symbol": "H",
+        "si": "A m⁻¹",
+        "cgs": "oersted (Oe)",
+        "factor": 4 * math.pi * 1e-3
+    },
     "Magnetic induction (B)": {
         "symbol": "B",
         "si": "tesla (T)",
