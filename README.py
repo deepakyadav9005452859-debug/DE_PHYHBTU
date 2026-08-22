@@ -145,7 +145,6 @@ quantities = {
         "cgs": "erg cm⁻³",
         "factor": 10
     },
-
     "Magnetostatic energy (Em)": {
         "symbol": "Em",
         "si": "J m⁻³",
@@ -159,6 +158,7 @@ quantities = {
         "cgs": "erg cm⁻³",
         "factor": 10
     }
+
 
 }
 
