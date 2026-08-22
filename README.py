@@ -169,8 +169,20 @@ quantities = { "Magnetic induction (B)": {
         "si": "J m⁻³",
         "cgs": "erg cm⁻³",
         "factor": 10
-    }
+    },
+    "Magnetostatic energy (Em)": {
+        "symbol": "Em",
+        "si": "J m⁻³",
+        "cgs": "erg cm⁻³",
+        "factor": 10
+    },
 
+    "Energy product (BH)max": {
+        "symbol": "(BH)max",
+        "si": "J m⁻³",
+        "cgs": "erg cm⁻³",
+        "factor": 10
+    }
 
 }
 
